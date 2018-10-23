@@ -1,0 +1,54 @@
+.hideDiv{
+	display: none;
+}
+.showDiv{
+	margin-top: 10%;
+	display: block;
+}
+.showDiv1{
+	margin-top: 10%;
+	display: block;
+	position: absolute;
+	left: -100px;
+	top: 0px;
+	z-index: 0;
+	width: 100%;
+}
+.showDiv2{
+	margin-top: 10%;
+	display: block;
+	position: absolute;
+	left: -30px;
+	top: 120px;
+	z-index: 1;
+	width: 100%;
+}
+.tblHeading{
+	background-color: #ddd;
+}
+.shadow-pan{
+	background-color: #f1f1f1;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.15);
+}
+.shadow-tbl{
+	background-color: #f1f1f1;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.15),0 4px 4px 0 rgba(0,0,0,0.12);
+}
+.error-pan{
+	background-color: #ff5555;
+	color: white;
+}
+.btn-size{
+	width: 100px;
+}
+.ht-tbl{
+	max-height: 260px;
+	overflow: auto;
+}
+.btn-pos{
+	margin-top: 60px;
+}
+.closeBtn{
+	margin-left: 95%;
+	cursor: pointer;
+}
